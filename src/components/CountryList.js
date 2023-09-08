@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchCountryData } from "../Redux/countries/countriesSlice";
-import { NavLink } from "react-router-dom";
+import React, { useEffect, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { NavLink } from 'react-router-dom';
+import { fetchCountryData } from '../Redux/countries/countriesSlice';
 
 const CountryList = () => {
   const dispatch = useDispatch();
@@ -26,9 +26,7 @@ const CountryList = () => {
     );
   }
 
-  const filteredCountryData = countryData.filter((country) =>
-    country.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredCountryData = countryData.filter((country) => country.name.toLowerCase().includes(searchTerm.toLowerCase()));
 
   return (
     <div className="countriesList">

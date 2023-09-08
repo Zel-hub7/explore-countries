@@ -1,9 +1,9 @@
-import React from "react";
-import { useParams, useNavigate } from "react-router-dom";
-import { useSelector } from "react-redux";
-import { AiFillSetting } from "react-icons/ai";
-import { BiMicrophone, BiArrowBack } from "react-icons/bi";
-import "./CountryDetails.css";
+import React from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import { AiFillSetting } from 'react-icons/ai';
+import { BiMicrophone, BiArrowBack } from 'react-icons/bi';
+import './CountryDetails.css';
 
 const CountryDetails = () => {
   const { countryId } = useParams();
@@ -25,8 +25,10 @@ const CountryDetails = () => {
             </button>
             <h2>{details.name}</h2>
             <div className="btns">
-              <BiMicrophone data-testid="microphone-button" />{" "}
-              <AiFillSetting data-testid="settings-button" />{" "}
+              <BiMicrophone data-testid="microphone-button" />
+              {' '}
+              <AiFillSetting data-testid="settings-button" />
+              {' '}
             </div>
           </div>
 
