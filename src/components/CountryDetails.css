@@ -6,20 +6,22 @@
   padding: 10px;
   margin: 1%;
 }
+
 .back-btn {
-    color: white;
-    background-color: #4468b0;
-    border: none;
-    padding: 10px;
-    font-size: 20px;
+  color: white;
+  background-color: #4468b0;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
 }
+
 .not-found {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: red;
-    font-size: 30px;
-    font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 30px;
+  font-weight: bolder;
 }
 
 h2 {
@@ -32,17 +34,21 @@ h2 {
   font-size: 25px;
   margin-top: 1%;
 }
+
 .flag-container {
   display: flex;
   margin: 2%;
   column-gap: 10px;
 }
+
 .flag-container img {
   width: 40%;
 }
+
 .flag-container p {
   color: white;
 }
+
 .details-list {
   display: flex;
   justify-content: space-between;
@@ -58,8 +64,9 @@ h2 {
   flex-direction: column;
   row-gap: 10px;
 }
+
 .more-details h2 {
-    margin-left: 2%;
+  margin-left: 2%;
 }
 
 .more-details > .details-list:nth-child(odd) {

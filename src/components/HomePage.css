@@ -23,7 +23,8 @@ img {
   justify-content: space-around;
   margin: 2%;
 } */
-/* 
+
+/*
 input {
   padding: 10px;
   border-radius: 5px;
@@ -68,10 +69,12 @@ button {
   display: flex;
   justify-content: center;
 }
+
 .lists {
   display: flex;
   flex-direction: column;
 }
+
 .search-input {
   padding: 8px;
   margin: 2%;
